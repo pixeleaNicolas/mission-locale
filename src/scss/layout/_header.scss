@@ -1,3 +1,24 @@
-.eciheader{
-    display: flex;
+.ng1-nav-menu{
+    &__items{
+        display: flex;
+        .menu-item{
+            list-style-type: none ;
+            >a{
+                text-decoration: none;
+                color: inherit;
+                padding: 20px;
+            }
+        }
+    }
+}
+
+.header-main{
+    &__container{
+        display: flex;
+    }
+    &__logo{
+        height: 60px;
+        width: auto;
+        
+    }
 }
