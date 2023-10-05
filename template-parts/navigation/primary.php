@@ -12,7 +12,7 @@
         'theme_location' => 'primary_menu',
         'menu_id'        => 'primary-menu',
         'container'      => 'nav', // Utilisez une balise <nav> pour l'enveloppe du menu
-        'container_class' => 'ng1-nav-main', // Ajoutez une classe personnalisée à la balise <nav>
+        'container_class' => 'ng1-nav-menu', // Ajoutez une classe personnalisée à la balise <nav>
         'menu_class'      => 'ng1-nav-menu__items', // Ajoutez une classe personnalisée à la balise <ul>
     )
 );
